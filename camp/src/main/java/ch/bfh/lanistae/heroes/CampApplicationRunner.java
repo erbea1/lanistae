@@ -19,12 +19,16 @@ public class CampApplicationRunner implements ApplicationRunner {
     @Override
     public void run(ApplicationArguments args) throws Exception {
         if (heroRepository.count() == 0) {
-            heroService.createHero("Aurelius");
-            heroService.createHero("Maximus");
-            heroService.createHero("Gladius");
-            heroService.createHero("Davidus");
-            heroService.createHero("Maximilian");
-            heroService.createHero("Cesar");
+            heroService.createHero("Ragnar Lothbrok");
+            heroService.createHero("Bjorn Ironside");
+            heroService.createHero("Lagertha");
+            heroService.createHero("Floki");
+            heroService.createHero("Jarl Borg");
+            heroService.createHero("King Ecbert");
+            heroService.createHero("Torvi");
+            heroService.createHero("Athelstan");
+            heroService.createHero("Bishop Heahmund");
+            heroService.createHero("King Horik");
         }
     }
 }
