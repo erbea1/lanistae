@@ -1,7 +1,7 @@
 package ch.bfh.lanistae.arena.controller;
 
 import ch.bfh.lanistae.arena.model.Party;
-import ch.bfh.lanistae.arena.service.BattleService;
+import ch.bfh.lanistae.arena.service.impl.BattleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

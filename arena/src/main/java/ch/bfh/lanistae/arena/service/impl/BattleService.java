@@ -1,4 +1,4 @@
-package ch.bfh.lanistae.arena.service;
+package ch.bfh.lanistae.arena.service.impl;
 
 import ch.bfh.lanistae.arena.model.Party;
 

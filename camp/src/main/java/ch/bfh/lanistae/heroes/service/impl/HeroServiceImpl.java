@@ -38,7 +38,7 @@ public class HeroServiceImpl implements HeroService {
         String id = heroRepository.save(hero).getId();
 
         log.info("Hero " + name + " has been created");
-        log.info("Heros with ATK greater than50: " + heroRepository.countByAtkGreaterThan(50));
+        log.info("Heros with ATK greater than 50: " + heroRepository.countByAtkGreaterThan(50));
         return heroRepository.findById(id).get();
     }
 }
