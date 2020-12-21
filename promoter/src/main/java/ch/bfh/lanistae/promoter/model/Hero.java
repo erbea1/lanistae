@@ -1,18 +1,8 @@
 package ch.bfh.lanistae.promoter.model;
 
-import org.hibernate.annotations.GenericGenerator;
-import org.springframework.hateoas.RepresentationModel;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+public class Hero {
 
-@Entity
-public class Hero extends RepresentationModel<Hero> {
-
-    @Id
-    @GeneratedValue(generator = "system-uuid")
-    @GenericGenerator(name = "system-uuid", strategy = "uuid")
     private String id;
     private String name;
     private int atk;

@@ -1,14 +1,13 @@
 package ch.bfh.lanistae.promoter.service.impl;
 
-import ch.bfh.lanistae.promoter.client.CampClient;
-import ch.bfh.lanistae.promoter.service.PromoterService;
 import ch.bfh.lanistae.promoter.client.ArenaClient;
+import ch.bfh.lanistae.promoter.client.CampClient;
 import ch.bfh.lanistae.promoter.model.Party;
 import ch.bfh.lanistae.promoter.service.PromoterService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.hateoas.EntityModel;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -22,6 +21,7 @@ public class DefaultPromoterService implements PromoterService {
     @Autowired
     private CampClient campClient;
 
+    @Qualifier("ch.bfh.lanistae.promoter.client.ArenaClient")
     @Autowired
     private ArenaClient arenaClient;
 

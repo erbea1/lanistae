@@ -1,12 +1,10 @@
-package ch.bfh.lanistae.arena.service.impl;
+package ch.bfh.lanistae.arena.service.impl.impl;
 
-import ch.bfh.lanistae.arena.service.BattleService;
+import ch.bfh.lanistae.arena.service.impl.BattleService;
 import ch.bfh.lanistae.arena.model.Hero;
 import ch.bfh.lanistae.arena.model.Party;
-import ch.bfh.lanistae.arena.service.BattleService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.text.DecimalFormat;

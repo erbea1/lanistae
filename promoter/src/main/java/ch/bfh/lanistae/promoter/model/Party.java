@@ -1,6 +1,5 @@
 package ch.bfh.lanistae.promoter.model;
 
-import ch.bfh.lanistae.promoter.model.Hero;
 import org.springframework.hateoas.RepresentationModel;
 import java.util.List;
 
